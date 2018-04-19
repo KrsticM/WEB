@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Fudbalski klubovi</title>
+</head>
+<body>
+	<h1 style="color:red;">Unos novog kluba</h1>
+	<form action="http://localhost/dodaj">
+		<table>
+			<tr>
+				<td> <h4>Naziv:<h4> </td>
+				<td> <input type="text" name="naziv" /> </td>
+			</tr>	
+			<tr>
+				<td> <h4>Grad:<h4> </td>
+				<td> <select name="grad">
+						<option value="0" selected>Novi Sad</option>
+						<option value="1">Milići</option>
+						<option value="2">Kula ili Vrbas isto je to</option>
+						<option value="3">London</option>
+						<option value="4">Madrid</option>
+						<option value="5">Ruma</option>
+						<option value="6">Melenci</option>
+					</select>
+				</td>
+			</tr>	
+			<tr>
+				<td> <h4>Aktivan:<h4> </td>
+				<td> <input type="checkbox" name="aktivan" value="jeste"/></td>
+			</tr>	
+		</table>
+		<input type="submit" value="Dodaj" />
+	</form>
+</body>
+</html>
