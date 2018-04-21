@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>Naručite tortu</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+
+<body>
+
+<center> 
+	<h3 style="color:blue;"> Medina tortionica </h3> 
+
+<form action="naruci">
+	<table>
+		<tr>
+			<td> Vaše ime: </td>
+			<td> <input type="text" name="ime"/> </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td> Vaš broj telefona: </td>
+			<td> <input type="text" name="brtel"/> </td>
+			<td> </td>
+		</tr>
+			<td> Boja vaše torte: </td>
+			<td> <input type="color" name="boja"/> </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td> Vrsta torte: </td>
+			<td> 
+			    <select name="vrsta">
+					<option value="0" selected>Bomba</option>
+					<option value="1">Milka</option>
+					<option value="2">Rafaelo</option>
+					<option value="3">Snikers</option>
+					<option value="4">Jafa</option>
+					<option value="5">Keks torta</option>
+					<option value="6">Pesak</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td> Poruka za Medu: </td>
+			<!--td> <input style="height:200px;" type="text" name="poruka"/></td-->
+			<td> <textarea name="poruka" cols="22" rows = "10"> </textarea> </td>
+		<tr>
+			<td> </td>
+			<td> <input type="submit" value="Naruči"/> <input type="reset" value="Odustani"/> </td>
+			<td> </td>
+		</tr>
+	</table>
+</form>
+
+
+
+</center>
+</body>
+</html>
