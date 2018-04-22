@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Medina tortirnica/httpd/src"/>
+	<classpathentry kind="src" path="wp_k1_priprema/httpd/src"/>
+	<classpathentry kind="src" path="ZadatakVezbe/Http Protokol/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Medina tortirnica/httpd/bin"/>
+</classpath>
