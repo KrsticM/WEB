@@ -1,0 +1,57 @@
+18-Apr-2018 15:10:42.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.50
+18-Apr-2018 15:10:42.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 7 2018 20:06:05 UTC
+18-Apr-2018 15:10:42.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.50.0
+18-Apr-2018 15:10:42.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Apr-2018 15:10:42.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.13.0-38-generic
+18-Apr-2018 15:10:42.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2018 15:10:42.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+18-Apr-2018 15:10:42.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+18-Apr-2018 15:10:42.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Apr-2018 15:10:42.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/nastavnik/apache-tomcat-8.0.50
+18-Apr-2018 15:10:42.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/nastavnik/apache-tomcat-8.0.50
+18-Apr-2018 15:10:42.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/nastavnik/apache-tomcat-8.0.50/conf/logging.properties
+18-Apr-2018 15:10:42.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2018 15:10:42.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Apr-2018 15:10:42.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Apr-2018 15:10:42.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Apr-2018 15:10:42.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/nastavnik/apache-tomcat-8.0.50
+18-Apr-2018 15:10:42.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/nastavnik/apache-tomcat-8.0.50
+18-Apr-2018 15:10:42.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/nastavnik/apache-tomcat-8.0.50/temp
+18-Apr-2018 15:10:42.037 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Apr-2018 15:10:42.130 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2018 15:10:42.180 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Apr-2018 15:10:42.186 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Apr-2018 15:10:42.190 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Apr-2018 15:10:42.192 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 422 ms
+18-Apr-2018 15:10:42.261 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Apr-2018 15:10:42.262 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.50
+18-Apr-2018 15:10:42.384 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /home/nastavnik/apache-tomcat-8.0.50/webapps/Vezbe05.war
+18-Apr-2018 15:10:44.539 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2018 15:11:00.763 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /home/nastavnik/apache-tomcat-8.0.50/webapps/Vezbe05.war has finished in 18,378 ms
+18-Apr-2018 15:11:00.764 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /home/nastavnik/apache-tomcat-8.0.50/webapps/WebShop.war
+18-Apr-2018 15:11:00.829 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /home/nastavnik/apache-tomcat-8.0.50/webapps/WebShop.war has finished in 65 ms
+18-Apr-2018 15:11:00.830 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/nastavnik/apache-tomcat-8.0.50/webapps/host-manager
+18-Apr-2018 15:11:00.877 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/nastavnik/apache-tomcat-8.0.50/webapps/host-manager has finished in 47 ms
+18-Apr-2018 15:11:00.878 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/nastavnik/apache-tomcat-8.0.50/webapps/ROOT
+18-Apr-2018 15:11:00.940 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/nastavnik/apache-tomcat-8.0.50/webapps/ROOT has finished in 62 ms
+18-Apr-2018 15:11:00.940 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/nastavnik/apache-tomcat-8.0.50/webapps/docs
+18-Apr-2018 15:11:00.979 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/nastavnik/apache-tomcat-8.0.50/webapps/docs has finished in 39 ms
+18-Apr-2018 15:11:00.980 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/nastavnik/apache-tomcat-8.0.50/webapps/manager
+18-Apr-2018 15:11:01.032 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/nastavnik/apache-tomcat-8.0.50/webapps/manager has finished in 53 ms
+18-Apr-2018 15:11:01.032 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/nastavnik/apache-tomcat-8.0.50/webapps/examples
+18-Apr-2018 15:11:02.925 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/nastavnik/apache-tomcat-8.0.50/webapps/examples has finished in 1,893 ms
+18-Apr-2018 15:11:02.928 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2018 15:11:02.951 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Apr-2018 15:11:02.957 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 20764 ms
+18-Apr-2018 15:11:29.368 INFO [Thread-8] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2018 15:11:29.421 INFO [Thread-8] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Apr-2018 15:11:29.471 INFO [Thread-8] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Apr-2018 15:11:29.542 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Vezbe05] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2018 15:11:29.542 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Vezbe05] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+18-Apr-2018 15:11:29.549 INFO [Thread-8] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2018 15:11:29.625 INFO [Thread-8] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Apr-2018 15:11:29.627 INFO [Thread-8] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2018 15:11:29.627 INFO [Thread-8] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
